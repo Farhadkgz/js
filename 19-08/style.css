@@ -1,0 +1,22 @@
+.btn{
+    background-color: aqua;
+    border: 0;
+    padding: 35px;
+}
+
+.form-container{
+    margin: 0 auto;
+    width: 600px;
+    padding: 50px 20px;
+    border: 1px solid;
+}
+
+.form-group{
+    margin-bottom: 25px;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}

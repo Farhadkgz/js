@@ -1,0 +1,44 @@
+.btn{
+    border: 0;
+    background-color: blueviolet;
+    padding: 15px 50px;
+    color: #fff;
+}
+
+.btn:hover{
+    border: 0;
+    background-color: blueviolet;
+    padding: 15px 50px;
+    color: black;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.one{
+    height: 200px;
+    width: 300px;
+    background-color: blueviolet;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.two{
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+

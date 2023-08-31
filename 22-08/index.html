@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btn" id="btn">Обратная связь</button>
+
+    <div class="form-container">
+        <form action="javascript:void(0)">
+            <div class="form-group">
+                <input type="text" placeholder="Имя" name="name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Фамилия" name="surname">
+            </div>
+            <div class="form-group">
+                <textarea name="msg"></textarea>
+            </div>
+            <div class="form-group">
+                <select name="lang">
+                    <option value="javascript">javascript</option>
+                    <option value="java">java</option>
+                    <option value="python">python</option>
+                    
+                </select>
+            </div>
+
+            <div class="form-group2">
+                <label>111 <input type="checkbox" name="check"></label>
+                <label>222 <input type="checkbox" name="check"></label>
+            </div>
+            <div class="form-group2">
+                <label>Турусунбекова 109 <input type="radio" name="place" value="place1"></label>
+                <label >Суюмбаева 223 <input type="radio" name="place" value="place2"></label>
+            </div>
+            <div class="form-button">
+                <button type="submit" id="save-btn" class="btn">Сохранить</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

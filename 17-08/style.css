@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+
+}
+
+.box{
+    height: 450px;
+    width: 350px;
+    background-color: brown;
+
+}
+
+.box1{
+    background-color: brown;
+
+}
+
+.box2{
+    background-color: lightskyblue;
+}
+
+.button_box{
+    height: 450px;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn{
+    padding: 15px 35px;
+    background-color: blue;
+    border: none;
+}
+
+.test{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
